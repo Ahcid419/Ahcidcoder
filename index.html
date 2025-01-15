@@ -1,361 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE-edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="png" href="80ae7133015ab966248aa4807af123b6.png">
-    <title>Ahcidcoder</title>
+<head>
+    <title>Webpage Design</title>
     <link rel="stylesheet" href="style.css">
-  </head>
+</head>
+<body>
 
-  <body>
-    <h1><span style="background-color: tomato;">This is a span</span></h1>
-    <h1><div style="background-color:cyan;">This is a div<div></h1>
-    
-    <p><span style="background-color: tomato;" >This is a span sentence </span></p>
-    <p><div style="background-color:cyan;">This is a div sentence </div></p>
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo">PraRoz</h2>
+            </div>
 
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa voluptas eum perferendis libero quasi laboriosam ad enim sequi? <span style="background-color: tomato;" > Minima quos tempore temporibus inventore eligendi? Error accusantium blanditiis enim ullam? Porro.</span></p>
+            <div class="menu">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">SERVICE</a></li>
+                    <li><a href="#">DESIGN</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </div>
 
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa voluptas eum perferendis libero quasi laboriosam ad enim sequi? <div style="background-color:cyan;"> Minima quos tempore temporibus inventore eligendi? Error accusantium blanditiis enim ullam? Porro.</div></p>
-      <hr>
-    <h2>Groceiries</h2>
-    <ul>
-      <li>milk</li>
-      <li>bread</li>
-      <li>sugar</li>
-      <li>butter</li>
-      <li>eggs</li>
-      <li>tea leaf</li>
-      <ul>
-        <li>beans</li>
-        <li>cream</li>
-        <li>cup</li>
-        <li>bread knife</li>
-        <ul>
-          <li>beans</li>
-        <li>cream</li>
-        <li>cup</li>
-        <li>bread knife</li>
-        <ul>
-        <li>beans</li>
-        <li>cream</li>
-        <li>cup</li>
-        <li>bread knife</li>
-        <ul>
-          <li>beans</li>
-          <li>cream</li>
-          <li>cup</li>
-          <li>bread knife</li>
-        </ul>
-        </ul>
-        </ul>
-      </ul>
-    </ul>
-    <hr>
-    <h2>To do list</h2>
-    <ol>
-      <li>milk</li>
-      <li>bread</li>
-      <li>sugar</li>
-      <li>butter</li>
-      <li>eggs</li>
-      <li>tea leaf</li>
-      <li>beans</li>
-      <li>cream</li>
-      <li>cup</li>
-       <li>bread knife</li>
-    </ol>
-    <hr>
-    <h3>Store Hours</h3>
-    <table border="3" style="background-color: black;">
-      <tr align="center" style="background-color:lightskyblue;">
-        <th>SUNDAY</th>
-        <th>MONDAY</th>
-        <th>TUESDAY</th>
-        <th>WEDNESDAY</th>
-        <th>THURSDAY</th>
-        <th>FRIDAY</th>
-        <th>SATURDAY</th>
-      </tr>
-      <tr align="center" style="background-color:lightsteelblue;">
-        <td>Closed</td>
-        <td>8-5</td>
-        <td>8-5</td>
-        <td>8-5</td>
-        <td>8-5</td>
-        <td>8-5</td>
-        <td>10-5</td>
-      </tr>
-    </table>
-    <br>
+            <div class="search">
+                <input class="srch" type="search" name="" placeholder="Type To text">
+                <a href="#"> <button class="btn">Search</button></a>
+            </div>
 
-    <hr>
-      <button onclick="doSomething()" style="font-size: 25px; background-color:grey;color: lightblue;border-radius:30px; ">Click me</button>
+        </div> 
+        <div class="content">
+            <h1>Web Design & <br><span>Development</span> <br>Course</h1>
+            <p class="par">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt neque 
+                 expedita atque eveniet <br> quis nesciunt. Quos nulla vero consequuntur, fugit nemo ad delectus 
+                <br> a quae totam ipsa illum minus laudantium?</p>
 
-      <p id="greetings">Hello</p>
+                <button class="cn"><a href="#">JOIN US</a></button>
 
-      <script>
-        function doSomething(){
-          document.getElementById("greetings").innerHTML="Goodbye";
-        }
+                <div class="form">
+                    <h2>Login Here</h2>
+                    <input type="email" name="email" placeholder="Enter Email Here">
+                    <input type="password" name="" placeholder="Enter Password Here">
+                    <button class="btnn"><a href="#">Login</a></button>
 
-      </script>
-      <hr>
+                    <p class="link">Don't have an account<br>
+                    <a href="#">Sign up </a> here</a></p>
+                    <p class="liw">Log in with</p>
 
-      <form action="index.php" method="POST" enctype="multipart/form-data">
-        <label for="username">username👩:</label>
-        <input type="text" id="userame" placeholder="Beauty" minlength="6" maxlength="12" required>
-        <br>
+                    <div class="icons">
+                        <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-google"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-skype"></ion-icon></a>
+                    </div>
 
-        <label for="password">password:</label>
-        <input type="password" minlength="6" maxlength="12" placeholder="password" required>
-        <br>
-
-        <label for="email">email🗳:</label>
-        <input type="email" id="email" placeholder="gh@gmail.com">
-        <br>
-
-        <label for="phone">phone📞:</label>
-        <input type="tel" id="phone" placeholder="123-456-7890" pattern="{0-9}{3}{0-9}{3}{0-9}{4}">
-        <br>
-        
-        <label for="bday">birthday:</label>
-        <input type="date" id="bday">
-        <br>
-
-        <label for="quantity">quantity:</label>
-        <input type="number" id="quantity" min="0" max="99" value="1">
-        <br>
-
-        
-        <label for="title">title:</label>
-        
-        <label for="Mr">Mr,</label>
-        <input type="radio" id="Mr" value="Mr" name="title">
-    
-        <label for="Ms">Ms,</label>
-        <input type="radio" id="Ms" value="Ms"  name="title">
-        
-        <label for="Phd">Phd,</label>
-        <input type="radio" id="Phd" value="Phd"  name="title">
-        <br>
-
-        <label for="payment">payment💰:</label>
-        <select id="payment">
-          <option value="visa">visa</option>
-          <option value="mastercard">mastercard</option>
-          <option value="giftcard">giftcard</option>
-        </select>
-        <br>
-
-        <label for="subscribe">subscribe:</label>
-        <input type="checkbox" id="subscribe">
-        <br>
-
-        <label for="comment">comment:</label>
-        <textarea id="comment"rows="3" cols="25"></textarea>
-        <br>
-
-        <label for="file">file:</label>
-        <input type="file" id="file">
-        <br>
-
-        <input type="reset">
-        <br>
-
-        <input type="submit">
-      </form>
-      <hr>
-      <header style="background-color:rgb(119, 83, 192) ;">
-        <h1>Welcome to Ahcid Company</h1>
-        <a href="">Home</a>
-        <a href="">About</a>
-        <a href="">Product</a>
-        <a href="">Contact Us</a>
-        <hr>
-      </header>
-
-      <main>
-        <h4>Check out some cool moves</h4>
-        <img src="6ec6a5d2-d831-4544-a477-e52d55d1e416.jpeg" height="200px" alt="profile picture">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque aliquid ipsam neque, sapiente distinctio quasi assumenda praesentium. Voluptatum expedita, dolorum necessitatibus nam quisquam totam. Accusantium obcaecati quia quidem ab minus?</p>
-        
-      </main>
-
-      <footer style="background-color:rgb(119, 83, 192) ;">
-        author:Ahcidcoder<br>
-        &copy;copyright reserved<br>
-        <small><a href="mailto:Ahcidcoder@fake.com">Ahcidcoder@fake.com</a></small>
-      </footer>
-      <hr>
-
-      <div class="div">
-      <h1 class="web">
-        Welcome to my website
-      </h1>
-
-      <p class="p">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum dicta, similique sint, facere maiores accusantium amet delectus deserunt hic doloremque dolorem non ea explicabo possimus quidem voluptatibus doloribus nam quibusdam.
-      </p>
-
-      <p class="p2">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia earum, doloremque natus ipsam dolorem quisquam neque praesentium illo laborum eum voluptate sint modi distinctio minus veritatis a sequi minima iusto.
-      </p>
-
-      <p class="p3">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis, ratione! Cupiditate atque, beatae, saepe repellat mollitia excepturi sapiente modi quod iure accusantium at vel praesentium, ipsam fugiat doloremque quibusdam veritatis.
-      </p>
-
-      <p class="p4">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. In ex rerum rem ut, ipsa saepe officia earum, placeat accusamus accusantium laboriosam dolores possimus similique eveniet vitae, reiciendis voluptatum dignissimos natus?
-      </p>
-
-      <p class="p5">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. In ex rerum rem ut, ipsa saepe officia earum, placeat accusamus accusantium laboriosam dolores possimus similique eveniet vitae, reiciendis voluptatum dignissimos natus?
-      </p>
-
-      <p class="p6">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. In ex rerum rem ut, ipsa saepe officia earum, placeat accusamus accusantium laboriosam dolores possimus similique eveniet vitae, reiciendis voluptatum dignissimos natus?
-      </p>
-
-      <p class="p7">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. In ex rerum rem ut, ipsa saepe officia earum, placeat accusamus accusantium laboriosam dolores possimus similique eveniet vitae, reiciendis voluptatum dignissimos natus?
-      </p>
-
-      <p class="p8">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. In ex rerum rem ut, ipsa saepe officia earum, placeat accusamus accusantium laboriosam dolores possimus similique eveniet vitae, reiciendis voluptatum dignissimos natus?
-      </p>
+                </div>
+                    </div>
+                </div>
+        </div>
     </div>
-    <hr>
-
-    <h1 class="id">Ahcid Coder</h1>
-    <p class="p1">
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. In ex rerum rem ut, ipsa saepe officia earum, placeat accusamus accusantium laboriosam dolores possimus similique eveniet vitae, reiciendis voluptatum dignissimos natus?
-    </p>
-    <hr>
-    <h1 class="code">Ahcid Coder</h1>
-    
-    <hr>
-    <h1>Ahcid Coder</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A recusandae ex qui accusantium alias odio nihil ratione, nostrum dolores harum provident eveniet voluptates nisi natus aliquid corrupti illum ullam sunt.</p>
-    <hr>
-
-    <div class="box" id="box1">box1</div>
-    <div class="box" id="box2">box2</div>
-  <hr>
-    <div>
-      <img src="6ec6a5d2-d831-4544-a477-e52d55d1e416.jpeg" height="150px" id="img1">
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis odit similique possimus, molestias sunt tenetur, vel id cupiditate illo voluptate et, recusandae distinctio eum. Rerum delectus esse vitae provident nesciunt!</p>
-
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis odit similique possimus, molestias sunt tenetur, vel id cupiditate illo voluptate et, recusandae distinctio eum. Rerum delectus esse vitae provident nesciunt!</p>
-
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis odit similique possimus, molestias sunt tenetur, vel id cupiditate illo voluptate et, recusandae distinctio eum. Rerum delectus esse vitae provident nesciunt!</p>
-
-      <img src="80ae7133015ab966248aa4807af123b6.png" height="150px"  id="img2">
-
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis odit similique possimus, molestias sunt tenetur, vel id cupiditate illo voluptate et, recusandae distinctio eum. Rerum delectus esse vitae provident nesciunt!</p>
-
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis odit similique possimus, molestias sunt tenetur, vel id cupiditate illo voluptate et, recusandae distinctio eum. Rerum delectus esse vitae provident nesciunt!</p>
-    </div>
-    <hr>
-
-    <div class="div2">
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi voluptas voluptate nemo maxime commodi corporis hic quia laboriosam saepe, distinctio vero reprehenderit quasi ad molestiae suscipit excepturi cumque ipsam et.</p>
-    </div>
-    <hr>
-
-    <div class="divv">div</div>
-    <span class="span">span</span>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam quod neque quaerat dolores et iste assumenda non, impedit minima nisi ipsum expedita asperiores ratione nulla veritatis facilis sed quam explicabo.
-    <hr>
-
- <div class="container">
-    <div class="box4"> 
-      <h2>This is #1</h2>
-    </div>
-    <div class="box4"> 
-      <h2>This is #2</h2>
-    </div>
- </div>   
-<hr>
-
-<div id="div5">
-  <div id="div6"></div>
-</div>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis aspernatur commodi reprehenderit necessitatibus id minus quidem consectetur, doloremque nostrum itaque obcaecati alias veritatis repudiandae dolores laboriosam, voluptatum impedit sapiente dolore!</p>
-
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis aspernatur commodi reprehenderit necessitatibus id minus quidem consectetur, doloremque nostrum itaque obcaecati alias veritatis repudiandae dolores laboriosam, voluptatum impedit sapiente dolore!</p>
-
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis aspernatur commodi reprehenderit necessitatibus id minus quidem consectetur, doloremque nostrum itaque obcaecati alias veritatis repudiandae dolores laboriosam, voluptatum impedit sapiente dolore!</p>
-
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis aspernatur commodi reprehenderit necessitatibus id minus quidem consectetur, doloremque nostrum itaque obcaecati alias veritatis repudiandae dolores laboriosam, voluptatum impedit sapiente dolore!</p>
-
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis aspernatur commodi reprehenderit necessitatibus id minus quidem consectetur, doloremque nostrum itaque obcaecati alias veritatis repudiandae dolores laboriosam, voluptatum impedit sapiente dolore!</p>
-<hr>
-
-<h1>Hello</h1>
- <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque excepturi quaerat qui velit, nulla sint, inventore voluptatibus rerum accusantium ipsa eum deserunt exercitationem quo atque quia officia. Velit, illo molestiae!</p>
- <hr>
-
- <div id="container1">
-  <p>This is #1</p>
-  <p>This is #2</p>
-  <div>
-    <p>This is #4</p>
-  </div>
- </div>
-
- <p>This is #4</p>
- <p>This is #5</p>
- <hr>
-
- <button id="button">Click me</button>
- <hr>
-
-<div id="greetings">
-  Hover here
-  <p>Hello</p>
-</div>
-<hr>
-
-<h1 id="hello">Hello</h1>
-
-<p id="p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium excepturi alias vero blanditiis ut velit repudiandae veniam, doloribus et, rerum laborum molestias labore quae! Molestiae numquam qui suscipit consectetur temporibus!</p>
-
-<ul id="fruit">
-  <li id="apple">apple</li>
-  <li id="mango">mango</li>
-  <li id="orange">orange</li>
-</ul>
-<hr>
-
-<p>This page #1</p>
-
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, nam deleniti! Omnis fugit laudantium modi vel reprehenderit tenetur quidem natus impedit qui. Perferendis architecto optio neque, omnis maxime rem sequi.
-</p>
-
-<div class="pagination">
-  <a href=""><</a>
-  <a href="" class="active">1</a>
-  <a href="page2.html" class="">2</a>
-  <a href="" class="">3</a>
-  <a href="" class="">4</a>
-  <a href="" class="">5</a>
-  <a href="">></a>
-</div>
-<hr>
-
-<div class="dropdown">
-  <button>Food</button>
-  <div class="content">
-    <a href="">Apple</a>
-    <a href="">Orange</a>
-    <a href="">Mango</a>
-  </div>
-</div>
-
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, doloribus commodi nostrum maxime debitis corrupti sequi nulla, explicabo porro voluptate in atque facilis. Id, error. Totam quidem quos neque adipisci!</p>
-  </body>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+</body>
 </html>
